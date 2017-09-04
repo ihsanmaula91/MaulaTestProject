@@ -1,0 +1,6 @@
+framework module Pods_MaulaTestProjectTests {
+  umbrella header "Pods-MaulaTestProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

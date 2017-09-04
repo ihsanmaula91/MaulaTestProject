@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27548F9A9A0912BE94DFE63D /* Pods_MaulaTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00C24559EE84F4087D6D25 /* Pods_MaulaTestProject.framework */; };
+		DB378E7F55CD2528D1803FF7 /* Pods_MaulaTestProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B374DC48B4703A145C6F0F /* Pods_MaulaTestProjectTests.framework */; };
+		E47357D71F5BB53B00E95639 /* FilterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47357D61F5BB53B00E95639 /* FilterPageController.swift */; };
+		E47357D91F5BB56A00E95639 /* SearchPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47357D81F5BB56A00E95639 /* SearchPageController.swift */; };
+		E47357DD1F5BC41200E95639 /* UIColor-HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47357DB1F5BC41200E95639 /* UIColor-HexString.swift */; };
+		E47357DE1F5BC41200E95639 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47357DC1F5BC41200E95639 /* ViewControllerExtension.swift */; };
+		E47357E31F5C3BD200E95639 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47357E11F5C3BD200E95639 /* ProductCollectionViewCell.swift */; };
+		E47357E41F5C3BD200E95639 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E47357E21F5C3BD200E95639 /* ProductCollectionViewCell.xib */; };
+		E47357E71F5C3C4600E95639 /* ShopTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47357E51F5C3C4600E95639 /* ShopTypeCell.swift */; };
+		E47357E81F5C3C4600E95639 /* ShopTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E47357E61F5C3C4600E95639 /* ShopTypeCell.xib */; };
+		E47357EF1F5C555800E95639 /* ShopTypePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47357EE1F5C555800E95639 /* ShopTypePageController.swift */; };
+		E47357F51F5C5BB700E95639 /* ShopTypeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47357F31F5C5BB700E95639 /* ShopTypeListCell.swift */; };
+		E47357F61F5C5BB700E95639 /* ShopTypeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E47357F41F5C5BB700E95639 /* ShopTypeListCell.xib */; };
+		E47357FA1F5C7D9C00E95639 /* RangePriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47357F81F5C7D9C00E95639 /* RangePriceCell.swift */; };
+		E47357FB1F5C7D9C00E95639 /* RangePriceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E47357F91F5C7D9C00E95639 /* RangePriceCell.xib */; };
+		E48115DD1F5CEEE2007C04BE /* URIConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E48115DC1F5CEEE2007C04BE /* URIConfig.plist */; };
+		E48115DF1F5CEFFF007C04BE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48115DE1F5CEFFF007C04BE /* Constants.swift */; };
+		E48115E11F5CF0E9007C04BE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48115E01F5CF0E9007C04BE /* Utility.swift */; };
+		E48115E31F5CFDC7007C04BE /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48115E21F5CFDC7007C04BE /* SearchModel.swift */; };
+		E48115E51F5CFE44007C04BE /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48115E41F5CFE44007C04BE /* ProductModel.swift */; };
+		E48115E71F5CFE96007C04BE /* NSDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48115E61F5CFE96007C04BE /* NSDictionaryExtension.swift */; };
+		E48115EB1F5D0F01007C04BE /* SpinnerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48115E91F5D0F01007C04BE /* SpinnerWidget.swift */; };
+		E48115EC1F5D0F01007C04BE /* SpinnerWidget.xib in Resources */ = {isa = PBXBuildFile; fileRef = E48115EA1F5D0F01007C04BE /* SpinnerWidget.xib */; };
+		E48115EE1F5D10C4007C04BE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48115ED1F5D10C4007C04BE /* BaseViewController.swift */; };
+		E48115F01F5D1D60007C04BE /* FilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48115EF1F5D1D60007C04BE /* FilterModel.swift */; };
+		E48115F21F5D2EC0007C04BE /* GlobalExecuteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48115F11F5D2EC0007C04BE /* GlobalExecuteDelegate.swift */; };
+		E4B3386C1F599FA6002C5B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B3386B1F599FA6002C5B9E /* AppDelegate.swift */; };
+		E4B338711F599FA6002C5B9E /* SearchPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B3386F1F599FA6002C5B9E /* SearchPage.storyboard */; };
+		E4B338731F599FA6002C5B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B338721F599FA6002C5B9E /* Assets.xcassets */; };
+		E4B338761F599FA6002C5B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B338741F599FA6002C5B9E /* LaunchScreen.storyboard */; };
+		E4B338811F599FA7002C5B9E /* MaulaTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B338801F599FA7002C5B9E /* MaulaTestProjectTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4B3387D1F599FA7002C5B9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4B338601F599FA6002C5B9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B338671F599FA6002C5B9E;
+			remoteInfo = MaulaTestProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14AF137B87E683D9AF0CDC97 /* Pods-MaulaTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaulaTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaulaTestProject/Pods-MaulaTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		22D09B8F878920F310C25BB9 /* Pods-MaulaTestProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaulaTestProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaulaTestProjectTests/Pods-MaulaTestProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97AA96AC14BFE266DB9C59A1 /* Pods-MaulaTestProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaulaTestProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaulaTestProjectTests/Pods-MaulaTestProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1B374DC48B4703A145C6F0F /* Pods_MaulaTestProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaulaTestProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA00C24559EE84F4087D6D25 /* Pods_MaulaTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaulaTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47357D61F5BB53B00E95639 /* FilterPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilterPageController.swift; path = Page/FilterPageController.swift; sourceTree = "<group>"; };
+		E47357D81F5BB56A00E95639 /* SearchPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchPageController.swift; path = Page/SearchPageController.swift; sourceTree = "<group>"; };
+		E47357DB1F5BC41200E95639 /* UIColor-HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor-HexString.swift"; path = "Extension/UIColor-HexString.swift"; sourceTree = "<group>"; };
+		E47357DC1F5BC41200E95639 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerExtension.swift; path = Extension/ViewControllerExtension.swift; sourceTree = "<group>"; };
+		E47357E11F5C3BD200E95639 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCollectionViewCell.swift; path = Widget/ProductCollectionViewCell/ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		E47357E21F5C3BD200E95639 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductCollectionViewCell.xib; path = Widget/ProductCollectionViewCell/ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		E47357E51F5C3C4600E95639 /* ShopTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopTypeCell.swift; path = Widget/ShopTypeCell/ShopTypeCell.swift; sourceTree = "<group>"; };
+		E47357E61F5C3C4600E95639 /* ShopTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShopTypeCell.xib; path = Widget/ShopTypeCell/ShopTypeCell.xib; sourceTree = "<group>"; };
+		E47357EE1F5C555800E95639 /* ShopTypePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopTypePageController.swift; path = Page/ShopTypePageController.swift; sourceTree = "<group>"; };
+		E47357F31F5C5BB700E95639 /* ShopTypeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopTypeListCell.swift; path = Widget/ShopTypeListCell/ShopTypeListCell.swift; sourceTree = "<group>"; };
+		E47357F41F5C5BB700E95639 /* ShopTypeListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShopTypeListCell.xib; path = Widget/ShopTypeListCell/ShopTypeListCell.xib; sourceTree = "<group>"; };
+		E47357F81F5C7D9C00E95639 /* RangePriceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangePriceCell.swift; path = Widget/RangePriceCell/RangePriceCell.swift; sourceTree = "<group>"; };
+		E47357F91F5C7D9C00E95639 /* RangePriceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RangePriceCell.xib; path = Widget/RangePriceCell/RangePriceCell.xib; sourceTree = "<group>"; };
+		E48115D21F5C9193007C04BE /* MaulaTestProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaulaTestProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		E48115DC1F5CEEE2007C04BE /* URIConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = URIConfig.plist; sourceTree = "<group>"; };
+		E48115DE1F5CEFFF007C04BE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E48115E01F5CF0E9007C04BE /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = Util/Utility.swift; sourceTree = "<group>"; };
+		E48115E21F5CFDC7007C04BE /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchModel.swift; path = Model/SearchModel.swift; sourceTree = "<group>"; };
+		E48115E41F5CFE44007C04BE /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductModel.swift; path = Model/ProductModel.swift; sourceTree = "<group>"; };
+		E48115E61F5CFE96007C04BE /* NSDictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDictionaryExtension.swift; path = Extension/NSDictionaryExtension.swift; sourceTree = "<group>"; };
+		E48115E91F5D0F01007C04BE /* SpinnerWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpinnerWidget.swift; path = Widget/SpinnerWidget/SpinnerWidget.swift; sourceTree = "<group>"; };
+		E48115EA1F5D0F01007C04BE /* SpinnerWidget.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpinnerWidget.xib; path = Widget/SpinnerWidget/SpinnerWidget.xib; sourceTree = "<group>"; };
+		E48115ED1F5D10C4007C04BE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Page/BaseViewController.swift; sourceTree = "<group>"; };
+		E48115EF1F5D1D60007C04BE /* FilterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilterModel.swift; path = Model/FilterModel.swift; sourceTree = "<group>"; };
+		E48115F11F5D2EC0007C04BE /* GlobalExecuteDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalExecuteDelegate.swift; path = Util/GlobalExecuteDelegate.swift; sourceTree = "<group>"; };
+		E4B338681F599FA6002C5B9E /* MaulaTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaulaTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B3386B1F599FA6002C5B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4B338701F599FA6002C5B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SearchPage.storyboard; sourceTree = "<group>"; };
+		E4B338721F599FA6002C5B9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4B338751F599FA6002C5B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4B338771F599FA6002C5B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B3387C1F599FA7002C5B9E /* MaulaTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaulaTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B338801F599FA7002C5B9E /* MaulaTestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaulaTestProjectTests.swift; sourceTree = "<group>"; };
+		E4B338821F599FA7002C5B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E950FB4C7E6FD1D129DE09 /* Pods-MaulaTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaulaTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaulaTestProject/Pods-MaulaTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B338651F599FA6002C5B9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27548F9A9A0912BE94DFE63D /* Pods_MaulaTestProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B338791F599FA7002C5B9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB378E7F55CD2528D1803FF7 /* Pods_MaulaTestProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CEAF3664EE7511824826B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1B374DC48B4703A145C6F0F /* Pods_MaulaTestProjectTests.framework */,
+				DA00C24559EE84F4087D6D25 /* Pods_MaulaTestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C037B9511B3D2BB88D0831B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7E950FB4C7E6FD1D129DE09 /* Pods-MaulaTestProject.debug.xcconfig */,
+				14AF137B87E683D9AF0CDC97 /* Pods-MaulaTestProject.release.xcconfig */,
+				22D09B8F878920F310C25BB9 /* Pods-MaulaTestProjectTests.debug.xcconfig */,
+				97AA96AC14BFE266DB9C59A1 /* Pods-MaulaTestProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E47357DA1F5BC40200E95639 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E48115E61F5CFE96007C04BE /* NSDictionaryExtension.swift */,
+				E47357DB1F5BC41200E95639 /* UIColor-HexString.swift */,
+				E47357DC1F5BC41200E95639 /* ViewControllerExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		E47357DF1F5C3B7D00E95639 /* ProductCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E47357E11F5C3BD200E95639 /* ProductCollectionViewCell.swift */,
+				E47357E21F5C3BD200E95639 /* ProductCollectionViewCell.xib */,
+			);
+			name = ProductCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E47357E01F5C3B9700E95639 /* ShopTypeCell */ = {
+			isa = PBXGroup;
+			children = (
+				E47357E51F5C3C4600E95639 /* ShopTypeCell.swift */,
+				E47357E61F5C3C4600E95639 /* ShopTypeCell.xib */,
+			);
+			name = ShopTypeCell;
+			sourceTree = "<group>";
+		};
+		E47357F21F5C5B6900E95639 /* ShopTypeListCell */ = {
+			isa = PBXGroup;
+			children = (
+				E47357F31F5C5BB700E95639 /* ShopTypeListCell.swift */,
+				E47357F41F5C5BB700E95639 /* ShopTypeListCell.xib */,
+			);
+			name = ShopTypeListCell;
+			sourceTree = "<group>";
+		};
+		E47357F71F5C7D4900E95639 /* RangePriceCell */ = {
+			isa = PBXGroup;
+			children = (
+				E47357F81F5C7D9C00E95639 /* RangePriceCell.swift */,
+				E47357F91F5C7D9C00E95639 /* RangePriceCell.xib */,
+			);
+			name = RangePriceCell;
+			sourceTree = "<group>";
+		};
+		E48115D51F5CEB5D007C04BE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E48115F11F5D2EC0007C04BE /* GlobalExecuteDelegate.swift */,
+				E48115E01F5CF0E9007C04BE /* Utility.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		E48115E81F5D0EF2007C04BE /* SpinnerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E48115E91F5D0F01007C04BE /* SpinnerWidget.swift */,
+				E48115EA1F5D0F01007C04BE /* SpinnerWidget.xib */,
+			);
+			name = SpinnerWidget;
+			sourceTree = "<group>";
+		};
+		E4B3385F1F599FA6002C5B9E = {
+			isa = PBXGroup;
+			children = (
+				E4B3386A1F599FA6002C5B9E /* MaulaTestProject */,
+				E4B3387F1F599FA7002C5B9E /* MaulaTestProjectTests */,
+				E4B338691F599FA6002C5B9E /* Products */,
+				C037B9511B3D2BB88D0831B8 /* Pods */,
+				18CEAF3664EE7511824826B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B338691F599FA6002C5B9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4B338681F599FA6002C5B9E /* MaulaTestProject.app */,
+				E4B3387C1F599FA7002C5B9E /* MaulaTestProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B3386A1F599FA6002C5B9E /* MaulaTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				E4B3386B1F599FA6002C5B9E /* AppDelegate.swift */,
+				E4B338721F599FA6002C5B9E /* Assets.xcassets */,
+				E47357DA1F5BC40200E95639 /* Extension */,
+				E4B338901F5A4862002C5B9E /* Model */,
+				E4B3388B1F59A511002C5B9E /* Page */,
+				E4B3388D1F5A47DE002C5B9E /* StoryBoard */,
+				E4B3388E1F5A480F002C5B9E /* Supporting Files */,
+				E48115D51F5CEB5D007C04BE /* Util */,
+				E4B3388C1F5A47CF002C5B9E /* Widget */,
+			);
+			path = MaulaTestProject;
+			sourceTree = "<group>";
+		};
+		E4B3387F1F599FA7002C5B9E /* MaulaTestProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4B338801F599FA7002C5B9E /* MaulaTestProjectTests.swift */,
+				E4B338821F599FA7002C5B9E /* Info.plist */,
+			);
+			path = MaulaTestProjectTests;
+			sourceTree = "<group>";
+		};
+		E4B3388B1F59A511002C5B9E /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				E47357D61F5BB53B00E95639 /* FilterPageController.swift */,
+				E47357D81F5BB56A00E95639 /* SearchPageController.swift */,
+				E47357EE1F5C555800E95639 /* ShopTypePageController.swift */,
+				E48115ED1F5D10C4007C04BE /* BaseViewController.swift */,
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
+		E4B3388C1F5A47CF002C5B9E /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				E48115E81F5D0EF2007C04BE /* SpinnerWidget */,
+				E47357DF1F5C3B7D00E95639 /* ProductCollectionViewCell */,
+				E47357F71F5C7D4900E95639 /* RangePriceCell */,
+				E47357E01F5C3B9700E95639 /* ShopTypeCell */,
+				E47357F21F5C5B6900E95639 /* ShopTypeListCell */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		E4B3388D1F5A47DE002C5B9E /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E4B338741F599FA6002C5B9E /* LaunchScreen.storyboard */,
+				E4B3386F1F599FA6002C5B9E /* SearchPage.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		E4B3388E1F5A480F002C5B9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4B338771F599FA6002C5B9E /* Info.plist */,
+				E48115D21F5C9193007C04BE /* MaulaTestProject-Bridging-Header.h */,
+				E48115DC1F5CEEE2007C04BE /* URIConfig.plist */,
+				E48115DE1F5CEFFF007C04BE /* Constants.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4B338901F5A4862002C5B9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E48115E21F5CFDC7007C04BE /* SearchModel.swift */,
+				E48115E41F5CFE44007C04BE /* ProductModel.swift */,
+				E48115EF1F5D1D60007C04BE /* FilterModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B338671F599FA6002C5B9E /* MaulaTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B338851F599FA7002C5B9E /* Build configuration list for PBXNativeTarget "MaulaTestProject" */;
+			buildPhases = (
+				B455DB9AC348E08BB3D147CA /* [CP] Check Pods Manifest.lock */,
+				E4B338641F599FA6002C5B9E /* Sources */,
+				E4B338651F599FA6002C5B9E /* Frameworks */,
+				E4B338661F599FA6002C5B9E /* Resources */,
+				C45DD44ADCF3D00D4FE370D6 /* [CP] Embed Pods Frameworks */,
+				A912BC531BC56BF7D73B914D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaulaTestProject;
+			productName = MaulaTestProject;
+			productReference = E4B338681F599FA6002C5B9E /* MaulaTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4B3387B1F599FA7002C5B9E /* MaulaTestProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B338881F599FA7002C5B9E /* Build configuration list for PBXNativeTarget "MaulaTestProjectTests" */;
+			buildPhases = (
+				52FC0D50BBE9058F709628CA /* [CP] Check Pods Manifest.lock */,
+				E4B338781F599FA7002C5B9E /* Sources */,
+				E4B338791F599FA7002C5B9E /* Frameworks */,
+				E4B3387A1F599FA7002C5B9E /* Resources */,
+				28FEF85EF332F005246A6082 /* [CP] Embed Pods Frameworks */,
+				B95BBB6BCF7FF02D54A97BEA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4B3387E1F599FA7002C5B9E /* PBXTargetDependency */,
+			);
+			name = MaulaTestProjectTests;
+			productName = MaulaTestProjectTests;
+			productReference = E4B3387C1F599FA7002C5B9E /* MaulaTestProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B338601F599FA6002C5B9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MyMacbook;
+				TargetAttributes = {
+					E4B338671F599FA6002C5B9E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E4B3387B1F599FA7002C5B9E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E4B338671F599FA6002C5B9E;
+					};
+				};
+			};
+			buildConfigurationList = E4B338631F599FA6002C5B9E /* Build configuration list for PBXProject "MaulaTestProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4B3385F1F599FA6002C5B9E;
+			productRefGroup = E4B338691F599FA6002C5B9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4B338671F599FA6002C5B9E /* MaulaTestProject */,
+				E4B3387B1F599FA7002C5B9E /* MaulaTestProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4B338661F599FA6002C5B9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47357E81F5C3C4600E95639 /* ShopTypeCell.xib in Resources */,
+				E4B338761F599FA6002C5B9E /* LaunchScreen.storyboard in Resources */,
+				E48115DD1F5CEEE2007C04BE /* URIConfig.plist in Resources */,
+				E4B338731F599FA6002C5B9E /* Assets.xcassets in Resources */,
+				E47357F61F5C5BB700E95639 /* ShopTypeListCell.xib in Resources */,
+				E48115EC1F5D0F01007C04BE /* SpinnerWidget.xib in Resources */,
+				E47357FB1F5C7D9C00E95639 /* RangePriceCell.xib in Resources */,
+				E47357E41F5C3BD200E95639 /* ProductCollectionViewCell.xib in Resources */,
+				E4B338711F599FA6002C5B9E /* SearchPage.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B3387A1F599FA7002C5B9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28FEF85EF332F005246A6082 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaulaTestProjectTests/Pods-MaulaTestProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52FC0D50BBE9058F709628CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaulaTestProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A912BC531BC56BF7D73B914D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaulaTestProject/Pods-MaulaTestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B455DB9AC348E08BB3D147CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaulaTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95BBB6BCF7FF02D54A97BEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaulaTestProjectTests/Pods-MaulaTestProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C45DD44ADCF3D00D4FE370D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MaulaTestProject/Pods-MaulaTestProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HanekeSwift/Haneke.framework",
+				"${BUILT_PRODUCTS_DIR}/MARKRangeSlider/MARKRangeSlider.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Haneke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MARKRangeSlider.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaulaTestProject/Pods-MaulaTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B338641F599FA6002C5B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48115E31F5CFDC7007C04BE /* SearchModel.swift in Sources */,
+				E48115EB1F5D0F01007C04BE /* SpinnerWidget.swift in Sources */,
+				E47357DD1F5BC41200E95639 /* UIColor-HexString.swift in Sources */,
+				E48115F01F5D1D60007C04BE /* FilterModel.swift in Sources */,
+				E47357D91F5BB56A00E95639 /* SearchPageController.swift in Sources */,
+				E47357DE1F5BC41200E95639 /* ViewControllerExtension.swift in Sources */,
+				E47357D71F5BB53B00E95639 /* FilterPageController.swift in Sources */,
+				E48115F21F5D2EC0007C04BE /* GlobalExecuteDelegate.swift in Sources */,
+				E48115E51F5CFE44007C04BE /* ProductModel.swift in Sources */,
+				E48115EE1F5D10C4007C04BE /* BaseViewController.swift in Sources */,
+				E48115E11F5CF0E9007C04BE /* Utility.swift in Sources */,
+				E47357EF1F5C555800E95639 /* ShopTypePageController.swift in Sources */,
+				E47357F51F5C5BB700E95639 /* ShopTypeListCell.swift in Sources */,
+				E47357E31F5C3BD200E95639 /* ProductCollectionViewCell.swift in Sources */,
+				E47357FA1F5C7D9C00E95639 /* RangePriceCell.swift in Sources */,
+				E48115E71F5CFE96007C04BE /* NSDictionaryExtension.swift in Sources */,
+				E47357E71F5C3C4600E95639 /* ShopTypeCell.swift in Sources */,
+				E4B3386C1F599FA6002C5B9E /* AppDelegate.swift in Sources */,
+				E48115DF1F5CEFFF007C04BE /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B338781F599FA7002C5B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B338811F599FA7002C5B9E /* MaulaTestProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4B3387E1F599FA7002C5B9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4B338671F599FA6002C5B9E /* MaulaTestProject */;
+			targetProxy = E4B3387D1F599FA7002C5B9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4B3386F1F599FA6002C5B9E /* SearchPage.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4B338701F599FA6002C5B9E /* Base */,
+			);
+			name = SearchPage.storyboard;
+			sourceTree = "<group>";
+		};
+		E4B338741F599FA6002C5B9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4B338751F599FA6002C5B9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4B338831F599FA7002C5B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4B338841F599FA7002C5B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4B338861F599FA7002C5B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E950FB4C7E6FD1D129DE09 /* Pods-MaulaTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaulaTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihsanmaul.MaulaTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/MaulaTestProject/MaulaTestProject-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		E4B338871F599FA7002C5B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14AF137B87E683D9AF0CDC97 /* Pods-MaulaTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaulaTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihsanmaul.MaulaTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/MaulaTestProject/MaulaTestProject-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		E4B338891F599FA7002C5B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D09B8F878920F310C25BB9 /* Pods-MaulaTestProjectTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MaulaTestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihsanmaul.MaulaTestProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaulaTestProject.app/MaulaTestProject";
+			};
+			name = Debug;
+		};
+		E4B3388A1F599FA7002C5B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97AA96AC14BFE266DB9C59A1 /* Pods-MaulaTestProjectTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MaulaTestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihsanmaul.MaulaTestProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaulaTestProject.app/MaulaTestProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B338631F599FA6002C5B9E /* Build configuration list for PBXProject "MaulaTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B338831F599FA7002C5B9E /* Debug */,
+				E4B338841F599FA7002C5B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B338851F599FA7002C5B9E /* Build configuration list for PBXNativeTarget "MaulaTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B338861F599FA7002C5B9E /* Debug */,
+				E4B338871F599FA7002C5B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B338881F599FA7002C5B9E /* Build configuration list for PBXNativeTarget "MaulaTestProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B338891F599FA7002C5B9E /* Debug */,
+				E4B3388A1F599FA7002C5B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B338601F599FA6002C5B9E /* Project object */;
+}

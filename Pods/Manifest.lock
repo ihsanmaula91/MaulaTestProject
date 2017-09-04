@@ -1,0 +1,15 @@
+PODS:
+  - HanekeSwift (0.10.1)
+  - MARKRangeSlider (1.1.1)
+
+DEPENDENCIES:
+  - HanekeSwift (~> 0.10)
+  - MARKRangeSlider (~> 1.1)
+
+SPEC CHECKSUMS:
+  HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
+  MARKRangeSlider: ef7e1fe84d22996f47fd72dcb8de50b9410aac47
+
+PODFILE CHECKSUM: f93c9bea0c531154e854b0ce633acda4eb553c81
+
+COCOAPODS: 1.3.1
