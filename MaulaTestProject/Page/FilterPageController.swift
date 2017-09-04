@@ -28,10 +28,12 @@ class FilterPageController: BaseViewController, UITableViewDelegate, UITableView
     var defaultMinPrice: Int = 100
     var defaultMaxPrice: Int = 8000000
     
-    let rangePriceCellIdentifier: String = "RangePriceCell"
-    let shopTypeCellIdentifier: String = "ShopTypeCell"
-    let goldMerchantText: String = "Gold Merchant "
-    let officialStoreText: String = "Official Store "
+    let filterTitle: String = Constants.FILTER_TITLE
+    let resetText: String = Constants.RESET_TEXT
+    let rangePriceCellIdentifier: String = Constants.RANGE_PRICE_CELL
+    let shopTypeCellIdentifier: String = Constants.SHOP_TYPE_CELL
+    let goldMerchantText: String = Constants.GOLD_MERCHANT
+    let officialStoreText: String = Constants.OFFICIAL_STORE
     
     var globalExecuteDelegate: GlobalExecuteDelegate?
     
@@ -40,7 +42,7 @@ class FilterPageController: BaseViewController, UITableViewDelegate, UITableView
 
         // Do any additional setup after loading the view.
         filterTableView.separatorStyle = .None
-        navigationItem.title = "Filter"
+        navigationItem.title = filterTitle
         removeTitleBackNavigation()
         addRightButtonItem()
         registerNib()
@@ -48,7 +50,7 @@ class FilterPageController: BaseViewController, UITableViewDelegate, UITableView
     }
     
     func addRightButtonItem() {
-        let rightButtonItem = UIBarButtonItem(title: "Reset", style: .Plain, target: self, action: #selector(resetData))
+        let rightButtonItem = UIBarButtonItem(title: resetText, style: .Plain, target: self, action: #selector(resetData))
         self.navigationItem.rightBarButtonItem = rightButtonItem
         self.navigationItem.rightBarButtonItem?.tintColor = UIColor(hexString: "3AA931")
     }

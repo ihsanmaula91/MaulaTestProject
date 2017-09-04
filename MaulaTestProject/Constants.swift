@@ -25,4 +25,13 @@ public struct Constants {
     public static let PRODUCT_COLLECTION_VIEW_CELL = "ProductCollectionViewCell"
     public static let OK_TITLE = "OK"
     public static let SEARCH_ERROR_MESSAGE = "Oops... hasil pencarian Anda tidak dapat ditemukan."
+    
+    public static let FILTER_TITLE = "Filter"
+    public static let RESET_TEXT = "Reset"
+    public static let RANGE_PRICE_CELL = "RangePriceCell"
+    public static let SHOP_TYPE_CELL = "ShopTypeCell"
+    public static let GOLD_MERCHANT = "Gold Merchant "
+    public static let OFFICIAL_STORE = "Official Store "
+    
+    public static let SHOP_TYPE_TITLE = "Shop Type"
 }

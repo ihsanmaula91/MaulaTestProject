@@ -19,20 +19,23 @@ class ShopTypePageController: BaseViewController, UITableViewDataSource, UITable
     var checkedGM: Bool = false
     var checkedOS: Bool = false
     
+    let shopTypeTitle: String = Constants.SHOP_TYPE_TITLE
+    let resetText: String = Constants.RESET_TEXT
+    
     var globalExecuteDelegate: GlobalExecuteDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        navigationItem.title = "Shop Type"
+        navigationItem.title = shopTypeTitle
         removeTitleBackNavigation()
         addRightButtonItem()
         registerNib()
     }
     
     func addRightButtonItem() {
-        let rightButtonItem = UIBarButtonItem(title: "Reset", style: .Plain, target: self, action: #selector(resetData))
+        let rightButtonItem = UIBarButtonItem(title: resetText, style: .Plain, target: self, action: #selector(resetData))
         self.navigationItem.rightBarButtonItem = rightButtonItem
         self.navigationItem.rightBarButtonItem?.tintColor = UIColor(hexString: "3AA931")
     }
